@@ -11,6 +11,7 @@ public class Student {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
+    // Creating a constructor for the class.
     this.message = message;
   }
 
