@@ -22,8 +22,16 @@
 # Ports
 *application.properties  add <server.port=0000> desired port number 8080/8082/3000
 
-# PathVariable
+# PathVariable -> to bind value into url method
 *create public Model nameOfMethod( variable to be passed ex<int id>){return object}
 *GetMapping annotation and uri ('url/{variable to be passed<id>}')
 *<{baseurl}>/{id}
 *add @PathVariable annotation inside method ex method(@PathVariable int studentId){return object}
+
+
+#  Requestparams -> extract the value of qs in url
+*@RequestParam annotation ex method(@RequestParam int id){return object}
+*pass multiple requestparams ex method(
+  @RequestParam int id,
+  @RequestParam String name,
+  ){return new object(id,name)}
