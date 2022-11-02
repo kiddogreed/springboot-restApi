@@ -12,3 +12,12 @@
   * create method correspond to desire task ex<GET/POST/PUT/DELETE>
   * use annotation ex <@GETMAPPING/@POSTMAPPING/@DELETEMAPPING>
   * return a class/object
+
+# Lists
+*create public method ex List<Student>{}
+* List<object> anyname = new ArrayList<>();
+* anyname.add(new object(parameters ex id,fname));  
+
+
+#Ports
+*application.properties  add <server.port=0000> desired port number 8080/8082/3000
