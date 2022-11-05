@@ -38,5 +38,6 @@
 
 
 # Post Request -> create data
-* postMapping annotation
-* Requestbody
+* @postMapping annotation
+* @Requestbody
+* @ResponseStatus(HTTP.CREATED)
