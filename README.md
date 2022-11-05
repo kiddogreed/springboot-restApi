@@ -35,3 +35,8 @@
   @RequestParam int id,
   @RequestParam String name,
   ){return new object(id,name)}
+
+
+# Post Request -> create data
+* postMapping annotation
+* Requestbody
